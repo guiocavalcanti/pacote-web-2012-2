@@ -1,0 +1,22 @@
+/*
+ * fieldset {
+  background-color: blue;
+}
+*/
+
+.container {
+  width: 600px;
+}
+
+.primeiro-fieldset {
+  background-color: red;
+  color:  blue;
+}
+
+input[type=text] {
+  width: 500px;
+}
+
+input[disabled] {
+  background-color: green;
+}

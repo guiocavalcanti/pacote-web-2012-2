@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+  <form action="http://meusite.com/cadastro" method="POST">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+
+      <label for="campo-nome">Nome:</label>
+      <input type="text" id="campo-nome" name="campo-nome">
+
+      <label for="campo-sexo">Sexo:</label>
+      <select name="sexo" id="campo-sexo">
+        <option value="mas">Masculino</option>
+        <option value="fem">Feminino</option>
+      </select>
+
+      <label for="campo-mensagem">Mensagem:</label>
+      <textarea id="campo-mensagem" name="mensagem"></textarea>
+
+      <label for="campo-sexo-masc">Masculino:</label>
+      <input type="radio" value="masc" id="campo-sexo-masc" name="sexo-radio">
+      <label for="campo-sexo-fem">Feminino:</label>
+      <input type="radio" value="fem" name="sexo-radio" id="campo-sexo-fem">
+
+      <input type="submit" value="Cadastrar">
+      <input type="reset" value="Limpar">
+
+    </fieldset>
+  </form>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td colspan="2">Dado 1</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

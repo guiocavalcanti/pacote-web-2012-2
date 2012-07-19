@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exemplos de formulários</title>
+  </head>
+  <body>
+    <form action="" method=""><!-- action e method serão estudados em breve -->
+
+      <label for="campo-de-busca">Palavra-chave</label>
+      <input type="text" id="campo-de-busca" placeholder="Escreva sua busca...">
+
+      <fieldset>
+        <legend>Dados de login</legend>
+        <label for="campo-de-senha">Senha</label>
+        <input type="password" id="campo-de-senha">
+
+        <label for="campo-logado">Mantenha-me logado</label>
+        <input type="checkbox" id="campo-logado">
+      </fieldset>
+
+      <fieldset>
+        <legend>Formas de definir sexo:</legend>
+        <label for="campo-masc">Masculino:</label>
+        <input type="radio" id="campo-masc" name="name">
+
+        <label for="campo-fem">Feminino:</label>
+        <input type="radio" id="campo-fem" name="name">
+
+        <label for="campo-sexo">Sexo:</label>
+        <select id="campo-sexo">
+          <option>Masculino</option>
+          <option>Feminino</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Novos campos</legend>
+        <textarea></textarea>
+      </fieldset>
+
+      <input type="reset" value="Limar dados">
+      <input type="submit" value="Buscar">
+    </form>
+  </body>
+</html>

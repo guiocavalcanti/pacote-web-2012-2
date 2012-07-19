@@ -1,0 +1,56 @@
+p {
+  font-family: arial, georgia;
+  font-weight: bold; /* 700..100, bold, normal */
+  font-size: 26px;
+  text-decoration: underline; /* undeline, overline, line-through, blink */
+  text-align: justify; /* left, right, justify, center */
+  line-height: 50px;
+}
+
+ul {
+  list-style-type: lower-alpha; /* lower-alpha, disc, circle, decimal */
+  list-style-position: inside;
+  list-style-image: url(imagem.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.lista-externa .lista-interna li {
+  background-color: green;
+}
+*/
+
+/*
+li {
+  background-color: white;
+}
+
+ul ol li, ul ul li, .lista-externa {
+  background-color: red;
+}
+*/
+
+
