@@ -1,0 +1,36 @@
+body {
+  background-color: #eee; /* #eeeeee */
+  font-family: arial, tahoma;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.todo-app {
+  background-color: #fff; /* white == #ffffff */
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.todo > .item > a {
+  font-weight: bold;
+  color: #000; /* == black == #000000 */
+}
+
+.item .item a {
+  color: #777;
+}
+
+.item .item a:hover {
+  color: #999;
+}
