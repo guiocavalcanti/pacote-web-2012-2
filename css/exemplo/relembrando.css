@@ -1,0 +1,45 @@
+/*
+.externa { border: 1px solid red; }
+.interna { border: 1px solid blue; }
+
+.externa > a {
+  color: red;
+}
+
+.externa > a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: yellow;
+}
+
+.menu {
+  border: 1px solid red;
+  width: 70%;
+}
+
+*/
+.externa {
+  font-family: arial, tahoma;
+  font-weight: bold; /* normal */
+  font-size: 10px;
+
+  text-decoration: underline;
+  text-transform: capitalize; /* lowercase */
+
+  width: 600px;
+  margin: 0 auto;
+}
+
+.externa:first-letter {
+ font-size: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link { color: red; }
+a:visited { color: gray; }
+a:hover { color: yellow; }

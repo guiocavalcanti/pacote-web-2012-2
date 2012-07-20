@@ -1,0 +1,15 @@
+.primeira, .segunda {
+  width: 100px;
+  height: 100px;
+}
+
+.primeira {
+  border-left: 1px dashed red;
+
+  margin: 10px 20px 30px 40px;
+}
+
+.segunda {
+  /* margin: 20px; */
+  padding: 20px;
+}
