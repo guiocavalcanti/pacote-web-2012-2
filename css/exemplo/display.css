@@ -11,6 +11,12 @@ body {
   margin: 0 auto;
 }
 
+input[type=text]:focus {
+  outline: none;
+
+
+}
+
 
 
 
