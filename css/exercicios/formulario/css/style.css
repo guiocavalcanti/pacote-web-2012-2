@@ -6,3 +6,65 @@
    * Bordas: #D4D0C1
    * Legend: #A8A599
 **/
+
+body {
+  background: #ebe9dc url("../imagens/background.png") repeat-x;
+  padding-top: 50px;
+}
+
+#container {
+  width: 810px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 4px solid #d4d0c1;
+  background-color: white;
+}
+
+fieldset {
+  border: 3px solid #d4d0c1;
+  padding: 50px 0 50px 90px;
+  background-color: #f5f4ee;
+}
+
+legend {
+  font-weight: bold;
+  color: #a8a599;
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 20px 0 10px 0;
+}
+
+input[type=text], input[type=password] {
+    background: url("../imagens/input.gif") no-repeat;
+    border: none;
+    padding: 11px 5px 13px 5px;
+    width: 290px;
+    font-size: 13px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+
+a, a:hover {
+    color: #98cd3f;
+}
+
+p {
+    color: #a8a599;
+    font-size: 13px;
+}
+
+input[type=submit] {
+  border: 2px solid #999;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #98cd3f;
+}
