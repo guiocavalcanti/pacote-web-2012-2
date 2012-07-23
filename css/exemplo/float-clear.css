@@ -1,0 +1,39 @@
+.header {
+  background-color: lightgreen;
+  padding: 20px;
+  height: 50px;
+  width: 800px;
+}
+
+.container {
+  width: 842px;
+  /* display: none; esconde div */
+}
+
+.esquerda, .central, .direita {
+    height: 500px;
+}
+
+.esquerda {
+  background-color: lightblue;
+  width: 120px;
+  float: left;
+}
+
+.central {
+  border: 1px solid red;
+  width: 600px;
+  float: left;
+}
+
+.direita {
+  background-color: yellow;
+  width: 120px;
+  float: left;
+}
+
+.rodape {
+  border: 1px solid black;
+  clear: left;
+  width: 840px;
+}
