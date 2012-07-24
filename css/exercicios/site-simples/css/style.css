@@ -1,0 +1,174 @@
+body {
+  background-color: #a4c5eb;
+}
+
+.container, .footer {
+  width: 770px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  margin: 30px auto 0 auto;
+  background-color: #d5d5d5;
+}
+
+.header {
+  border-top: 10px solid #b9d3a4;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.logotipo, .logotipo a {
+  width: 387px;
+  height: 54px;
+}
+
+.logotipo {
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: url("../images/logo.gif") no-repeat;
+  margin: 30px 0 30px 30px;
+}
+
+.logotipo a  {
+  display: block;
+}
+
+
+.menu, .sec-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  border-top: 1px solid #727272;
+}
+.menu li {
+  float: left;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #6e93c3;
+  text-transform: lowercase;
+}
+
+.call {
+  background: #6193c3 url("../images/muleke.jpg") no-repeat;
+  height: 219px;
+  padding: 20px 20px 20px 420px;
+}
+
+.call h2 {
+  margin-top: 0;
+  font-size: 17px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.call p {
+  font-size: 13px;
+  color: white;
+  line-height: 180%;
+}
+
+.content {
+  float: left;
+  width: 460px;
+  color: #878787;
+  padding: 30px 15px;
+}
+
+.sidebar {
+  float: left;
+  width: 260px;
+  background-color: #bababa;
+  padding: 10px;
+}
+
+.rule {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+}
+
+.form legend, .sidebar h3 {
+  text-transform: uppercase;
+  color: #195157;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.form input[type=text], .form input[type=password] {
+  border: none;
+  background: white;
+  padding: 5px;
+  display: block;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.form-busca label { display: none; }
+
+.form input[type=submit] {
+  display: none;
+}
+
+.form label {
+  text-transform: lowercase;
+}
+
+.sec-menu a {
+  color: #444;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.logotipo-sec, .logotipo-sec a {
+  display: block;
+  width: 191px;
+  height: 27px;
+}
+
+.logotipo-sec {
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../images/logo-rodape.gif") no-repeat;
+  float: left;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 0;
+}
+
+.address {
+  width: 300px;
+  float: right;
+  text-align: right;
+}
+
+.address .phone {
+ text-transform: uppercase;
+ font-style: normal;
+ font-size: 22px;
+ font-weight: bold;
+ color: #99a096;
+
+}
+
+.address .street {
+ color: #99a096;
+}
