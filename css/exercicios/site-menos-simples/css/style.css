@@ -1,0 +1,275 @@
+body {
+  background: url("../images/bg-geral.png");
+  color: white;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.global-bar {
+  background: url("../images/bg-barra-topo.png") repeat-x;
+  padding-top: 10px;
+  overflow: hidden;
+  height: 49px;
+}
+
+.global-bar .global-options {
+  width: 270px;
+  float: right;
+}
+
+.global-bar .sn {
+  padding-top: 5px;
+  float: left;
+}
+
+.global-bar .sn li {
+  float: left;
+  margin-right: 8px;
+}
+
+.global-bar .sn li, .global-bar .sn a {
+  width: 16px;
+  height: 16px;
+}
+
+.global-bar .sn a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.global-bar .rss {
+  background-image: url("../images/bt-rss.png");
+}
+
+.global-bar .facebook {
+  background-image: url("../images/bt-facebook.png");
+}
+
+.global-bar .twitter {
+  background-image: url("../images/bt-twitter.png");
+}
+
+.global-bar .form {
+  background: url("../images/bg-busca.png") no-repeat;
+  width: 193px;
+  height: 30px;
+  float: left;
+}
+
+.global-bar .form label, .global-bar .form legend {
+  display: none;
+}
+
+.global-bar .form input[type=text]:focus {
+  outline: none;
+}
+
+.global-bar .form input[type=text] {
+  width: 150px;
+  float: left;
+  padding: 5px;
+  color: white;
+  font-size: 13px;
+}
+
+.global-bar .form input[type=submit] {
+  width: 29px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.global-bar .form input { background: transparent; }
+
+.global-bar .form input { border: none; }
+
+.logotipo {
+  float: left;
+}
+
+.logotipo a {
+  font-family: 'Crete Round', serif;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000;
+  filter: dropshadow(color=#000, offx=2, offy=2);
+}
+
+.menu {
+  float: right;
+  margin-top: 37px;
+}
+
+.menu li { float: left; }
+.menu a {
+  font-weight: bold;
+  color: #7a8090;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background: url("../images/bg-transparente.png");
+  color: white;
+}
+
+.call {
+  background: url("../images/bg-banner.png") no-repeat;
+  clear: both;
+  width: 940px;
+  height: 369px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.call .image-links {
+  margin-top: 30px;
+  margin-left: 425px;
+}
+
+.call .image-links li {
+  float: left;
+  margin-right: 10px;
+}
+.call .image-links a {
+  width: 15px;
+  height: 15px;
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
+  border-radius: 15px;
+  background: url("../images/bg-boxes.png");
+}
+
+.call .image-links a:hover {
+  background-color: #3284b2;
+  background-image: none;
+}
+
+.content {
+  background: url("../images/bg-transparente.png");
+  overflow: hidden;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.content h2 {
+  margin: 0;
+}
+
+.content .item {
+  background: url("../images/bg-transparente.png");
+  width: 259px;
+  float: left;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.content .last {
+  margin-right: 0;
+}
+
+.content .item-header {
+  background: url("../images/bg-boxes.png");
+  width: 273px;
+  height: 41px;
+  margin-left: -15px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.content .item-header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background: url("../images/icone-pessoa.png") no-repeat;
+  padding-left: 35px;
+}
+
+.content .item p {
+  font-size: 13px;
+  color: #48526a;
+}
+
+.content .read {
+  display: block;
+  padding: 10px 20px;
+  width: 60px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  background-color: #11719f;
+  text-decoration: none;
+}
+
+.content .contact li {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.content .contact a {
+  color: white;
+
+}
+
+.content em {
+  text-transform: uppercase;
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #0f131f;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer .twitter-stream {
+  background: url("../images/icone-twitter.png") no-repeat;
+  padding-left: 50px;
+  font-size: 19px;
+}
+
+.footer .stream li {
+  float: left;
+  width: 285px;
+  height: 104px;
+  background: url("../images/bg-twitter.png") no-repeat;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.footer .stream a {
+    color: white;
+
+}
+
+.footer .stream .last {
+  margin-right: 0;
+}
